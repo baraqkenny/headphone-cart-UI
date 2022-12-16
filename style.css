@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(231, 231, 247);
+}
+
+.container{
+    width: 45rem;
+    height: 33rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(223, 214, 214, 0.4);
+}
+
+main{
+    display: flex;
+    padding: 50px;
+}
+
+
+.first-content > img{
+    width: 170px;
+}
+
+.second-content{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.second-content > p{
+    background: rgb(2, 2, 59);
+    color: #fff;
+    display: inline-flex;
+    padding: 5px 8px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.second-content h3{
+    margin-top: 15px;
+    color: rgb(2, 2, 59);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.third-content{
+    margin-top: 25px;
+    color: rgb(2, 2, 59);
+}
+ 
+.third-content h5 {
+    text-decoration: line-through;
+    color: rgb(96, 91, 91);
+}
+
+.third-content h1{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.third-content p{
+    margin-top: 6px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(77, 86, 104);
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 15px 115px;
+    background: rgb(61, 115, 240);
+    color: #fff;
+    border: none;
+    border-bottom: 6px solid rgb(4, 69, 235);
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.third-content h6 {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.fa-circle{
+    font-size: 10px;
+    color: rgb(12, 197, 12);
+}
+
+.fourth-content{
+    display: flex;
+    margin-top: 30px;
+}
+
+.cart{
+    display: flex;
+    padding: 15px 40px;
+    background: transparent;
+    border: 1px solid rgb(2, 2, 53);
+    border-radius: 7px;
+    font-family: sans-serif;
+}
+
+.fa-heart{
+ margin-right: 20px;
+ font-size: 20px;
+}
+
+.fa-scale-balanced{
+    margin-right: 20px;
+        font-size: 20px;
+        font-weight: 100;
+}
+.wishlist{
+    padding: 15px 35px;
+    margin-left: 10px;
+}
+
+.pop-up{
+    width: 400px;
+    height: 150px;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(104, 122, 147, 0.4);
+    border-radius: 5px;
+    position: absolute;
+    top: -1%;
+    animation: slideDown 1s ease-in-out;
+    display: none;
+}
+
+.pop-up > h1{
+    text-align: center;
+    padding-top: 50px;
+ 
+}
+
+
+@keyframes slideDown {
+ 0%{
+    opacity: 0;
+    transform: translateY(0);
+ }   
+ 100%{
+    transform: translateY(100%);
+    opacity: 1;
+ }
+}
